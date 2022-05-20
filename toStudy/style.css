@@ -1,0 +1,37 @@
+body {
+    margin:0px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+nav {
+   
+}
+
+header {
+    margin: 0px;
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+#mainTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+#logo {
+    text-align: right;
+}
