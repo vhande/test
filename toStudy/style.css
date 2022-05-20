@@ -1,37 +1,87 @@
-body {
+/* Header w/navbar using flexbox */
+body{
     margin:0px;
+    background-color: #F6F2D4;
 }
-
-li {
-    list-style-type: none;
-    display: inline;
-}
-
 a {
     text-decoration: none;
+    color: #001D6E;
 }
-
-#navbar {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-}
-
-nav {
-   
-}
-
 header {
-    margin: 0px;
-    display: flex;
-    background-color: #F2F2F2;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #DBDFFD;
+    
+}
+header li{  
+    list-style-type: none;
+    display: inline;
+    font-size:20px;   
+    color: #112B3C;
+    padding:5px;
+    margin-right:10px;
 }
 
 #mainTitle {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 0px;
+    font-size: 12px;
+    color: #112B3C;
+    flex:1;
 }
 
 #logo {
-    text-align: right;
+    margin-left:5px;
+    color:#FFE59D;
+    font-size: 35px;
 }
+
+i {
+    color: #2D4263;
+}
+
+/* End of header w/navbar */
+
+.form {
+    margin-top: 100px;
+}
+
+.centered {
+    text-align: center;;
+}
+
+fieldset {
+   margin:40px;
+}
+
+
+legend {
+    font-size: 20px;
+    padding: 10px;
+    
+}
+ input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+ }
+ 
+ textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+ }
+ button {
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+ }
