@@ -14,14 +14,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #DBDFFD;
+    background-color: #78938A;
     
 }
 header li{  
     list-style-type: none;
     display: inline;
     font-size:20px;   
-    color: #112B3C;
+    color: #495371;
     padding:5px;
     margin-right:10px;
 }
@@ -44,6 +44,8 @@ i {
 }
 
 /* End of header w/navbar */
+
+/* Form style */
 
 .form {
     margin-top: 100px;
